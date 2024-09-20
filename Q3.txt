@@ -1,0 +1,29 @@
+Instalación de paquetes con yarn:
+
+Para instalar paquetes con yarn, puedes utilizar el siguiente comando:
+
+yarn add nombre-del-paquete
+
+Esto instala el paquete y lo añade automáticamente a la sección dependencies del archivo package.json.
+
+Instalación de un paquete de desarrollo:
+
+Si el paquete es solo para desarrollo (por ejemplo, linters o herramientas de prueba), puedes usar:
+
+yarn add nombre-del-paquete --dev
+
+Eliminación de paquetes con yarn:
+Para borrar un paquete con yarn, el comando es:
+
+yarn remove nombre-del-paquete
+
+Esto elimina el paquete del proyecto y lo quita del archivo package.json.
+
+Comando equivalente a npm init en yarn:
+En yarn, el comando equivalente para inicializar un nuevo proyecto es:
+
+yarn init
+Esto crea un nuevo archivo package.json y te permite configurar los detalles del
+proyecto de manera interactiva, similar a npm init. Si quieres aceptar todos los valores por defecto, puedes usar:
+
+yarn init -y
